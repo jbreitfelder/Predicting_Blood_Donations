@@ -200,10 +200,10 @@ $(document).ready(function () {
 <h2>Features ingeneering</h2>
 <p>Let’s introduce some new variables:</p>
 <ul>
-<li><p><strong>rate</strong>: donations frequence.</p></li>
-<li><p><strong>fidelity</strong>: if this number is small, it indicates that the subject has made a lot of donations, including recent ones.</p></li>
-<li><p><strong>likely_to_come</strong>: if he/she comes every 3 months in average and came for the last time 3 months ago, we can assume that he/she is likely to come in March 2007, and then this variable is close to 0.</p></li>
-<li><p><strong>has_stopped</strong>: a value close to 1 indicates a person who has probably given up donating blood.</p></li>
+<li><strong>rate</strong>: donations frequence.</li>
+<li><strong>fidelity</strong>: if this number is small, it indicates that the subject has made a lot of donations, including recent ones.</li>
+<li><strong>likely_to_come</strong>: if he/she comes every 3 months in average and came for the last time 3 months ago, we can assume that he/she is likely to come in March 2007, and then this variable is close to 0.</li>
+<li><strong>has_stopped</strong>: a value close to 1 indicates a person who has probably given up donating blood.</li>
 </ul>
 <pre class="r"><code>train &lt;- mutate(train, rate=donations/since_first,
                 fidelity=since_last/donations,

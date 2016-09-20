@@ -78,11 +78,8 @@ From this graphic we can conclude at least 2 important things:
 Let's introduce some new variables:
 
 * **rate**: donations frequence. 
-
 * **fidelity**: if this number is small, it indicates that the subject has made a lot of donations, including recent ones.
-
 * **likely_to_come**: if he/she comes every 3 months in average and came for the last time 3 months ago, we can assume that he/she is likely to come in March 2007, and then this variable is close to 0. 
-
 * **has_stopped**: a value close to 1 indicates a person who has probably given up donating blood.
 
 ```{r, message=FALSE, warning=FALSE}
