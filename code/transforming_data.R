@@ -48,7 +48,7 @@ train <- mutate(train,
 
 
 ## Removing redondant variable
-train <- select(train, -total_given)
+train <- train[, -3]
 
 ## Reordering the variables (just for clarity)
 train <- train[, c(1:3, 5:8, 4)]

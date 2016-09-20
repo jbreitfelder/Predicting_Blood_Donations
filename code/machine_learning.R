@@ -11,7 +11,6 @@
 ## Header
 ################################################################################
 
-setwd("~/data_science_github/DrivenData_Blood_Donations")
 library(dplyr)
 library(ggplot2)
 library(knitr)
