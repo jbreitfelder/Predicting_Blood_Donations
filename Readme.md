@@ -24,19 +24,19 @@ Yeh, I-Cheng, Yang, King-Jang, and Ting, Tao-Ming, *Knowledge discovery on RFM m
 
 To run the codes you will need a working installation of the [programming language R](https://www.r-project.org). A nice user interface to code in R is [RStudio](https://www.rstudio.com).
 
-* **loading_data.R :** loads the data and change the variable names and types. Tu run this code : `source('loading_data.R')`.
-* **transforming_data.R :** this code allows to create new variables, remove useless one, apply a cox-box transformation on skewed variables and normalize the data. Tu run it : `source('transforming_data.R')`.
-* **machine_learning.R :** in this code I build the machine learning model and derive the resulting predictions. Tu run it : `source('machine_learning.R')`.
+* **loading_data.R:** loads the data and change the variable names and types. Tu run this code: `source('loading_data.R')`.
+* **transforming_data.R:** this code allows to create new variables, remove useless one, apply a cox-box transformation on skewed variables and normalize the data. Tu run it: `source('transforming_data.R')`.
+* **machine_learning.R:** in this code I build the machine learning model and derive the resulting predictions. Tu run it: `source('machine_learning.R')`.
 
 ### Data
 
-* **train.csv :** data on which the model is trained.
-* **test.csv :** data on which we want to predict if he/she will donate.
-* **variables.txt :** file containing an extensive description of the data taken from the Blood Transfusion Service Center in Hsin-Chu City in Taiwan.
+* **train.csv:** data on which the model is trained.
+* **test.csv:** data on which we want to predict if he/she will donate.
+* **variables.txt:** file containing an extensive description of the data taken from the Blood Transfusion Service Center in Hsin-Chu City in Taiwan.
 
 ### Results
 
-* **result.csv :** file containing the resulting predictions, in the DrivenData submission format.
+* **result.csv:** file containing the resulting predictions, in the DrivenData submission format.
 
 ### Documentation
 
