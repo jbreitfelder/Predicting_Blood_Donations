@@ -3,7 +3,6 @@
 ### Joanne Breitfelder
 ### *20 Sep 2016*
 
----
 
 ## Introduction
 
@@ -18,7 +17,6 @@ Yeh, I-Cheng, Yang, King-Jang, and Ting, Tao-Ming, *Knowledge discovery on RFM m
 - Feb. 27, 2016: #1  
 - Sept. 20, 2016: #5
 
----
 
 ## In this repository...
 
